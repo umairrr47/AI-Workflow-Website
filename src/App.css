@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -9,7 +11,6 @@ nav {
   z-index: 20;
 }
 
-/* Optional: Enhance wave-like effect with CSS animation */
 @keyframes wave {
   0% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
@@ -25,7 +26,6 @@ nav {
   z-index: 0;
 }
 
-/* Ensure the mobile menu has a smooth transition */
 nav .absolute {
   transition: all 0.3s ease-in-out;
 }
